@@ -2,6 +2,7 @@ let path = require('path');
 let fs = require('fs-extra');
 let request = require('request');
 let AdmZip = require('adm-zip');
+let Promise = require('')
 let help =
 `
 
